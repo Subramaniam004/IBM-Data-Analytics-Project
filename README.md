@@ -45,6 +45,7 @@ All numbers are computed live from the data. This project uses descriptive analy
    ```
 3. Start the app:
    ```bash
+   pip install streamlit pandas numpy plotly scipy ucimlrepo
    streamlit run app.py
    ```
 4. The app downloads the dataset automatically from UCI. If you have no internet access, download the dataset from the link above, save it as `website_phishing.csv` next to `app.py`, or upload it in the sidebar (CSV or ARFF).
